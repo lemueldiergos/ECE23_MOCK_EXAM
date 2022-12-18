@@ -1,0 +1,33 @@
+{
+    "Q":[
+    "Which type of encryption algorithm uses both a public key and a private key?",
+    
+    "This term refers to the maximum a posteriori probability (MAP) estimates of the most likely sequence of hidden states that can be obtained when using the Viterbi algorithm.",
+    
+    "This term refers to the field of study and practice of secure communications techniques that allow only the sender and intended recipient of the 'data\" or 'message\" to view the contents of a certain message.",
+    
+    "In the GSM mobile security management, what encryption algorithm is used to produce the SRES (signed response) output data, given the authentication key (Ki) and the Rand?",
+    
+    "These are the three encryption algorithms commonly used in the GSM standard for mobile communications.","The most famous asymmetric encryption algorithm known as RSA Algorithm was invented in 1978 by:",
+    
+    "This encryption technique was developed by IBM in the early 19705 and has a key length of 56-bits.",
+    
+    "When constructing the code tree to be used for decoding a TCM received message, what convention do we use to properly construct the code tree?"],
+    
+    "A":
+    
+    [["SHA-256","IMEI","DSA","SHA-32"],
+    ["Viterbi Path","Transition Table","TCM","CDM"],
+    ["Channeling","Cryography","RF Engr.","Cryptography"],
+    ["B3 Algorithm","A4 Algorithm","A3 Algorithm","A1 Algorithm"],
+    ["A1, A4, and A8 algorithms","A3, A5, and A8 algorithms","A2, A4, and A8 algorithms","A1, A3, and A5 algorithms"],
+    ["Leonard Adleman, Ma Lunda, Ca reg","Adi Shamir, Leonard Da Vinci, Ron Rivest"," Leonard Adleman, Ron Rivest, Adi Shamir"," Ron Rivest, Na pud, Ma Balot"],
+    ["DES","DOS","DSA","MOS"],
+    ["move-up for a “1” or move-down for a “1”","move-down for a “0” or move-up for a “1”","move-up for a “0” or move-down for a “0”","move-up for a “0” or move-down for a “1”"]],
+    
+    "C":["2","0","3","2","1","2","0","3"],
+    
+    "P":"la.on"
+
+
+}
