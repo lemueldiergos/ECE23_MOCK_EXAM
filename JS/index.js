@@ -4,6 +4,9 @@ function SET_MODULE(MOD) {
     document.location = "m"+(MOD+7)+".html";
 }
 
+//REMOVE PASS
+//localStorage.removeItem("LOG");
+
 var XMLREQ = new XMLHttpRequest();
 var DAT_JSON;
 XMLREQ.onreadystatechange = function() {
