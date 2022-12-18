@@ -1,0 +1,55 @@
+{
+    "Q": [
+        "The satellite system uses a 77-satellite network, and was started by Motorola in 1990.",
+
+        "MSC ",
+        
+        "AMPS is an analog cellular phone system using FDMA.", 
+        
+        "ESN",
+        
+        "This LEO satellite system uses 48 satellites in six polar orbits with each orbit hosting eight satellites.",
+        
+        "LEO",
+        
+        "DSSS ",
+        
+        "PCS ",
+        
+        "Which cellular communication technology first introduces SMS?",
+        
+        "One of the dominant 2G standards in North America is Interim Standard 95(IS-95).",
+        
+        "How many different orbits does the GPS satellite system use? "
+                
+    ],
+
+    "A": [
+        ["Iridium Satellite Constellation", "Leo Satellite Communications", "Iridium Satellite Constellation", "Leo Satellite Communications"],
+
+        ["Mobile Switching Center", "Mobile Switching Center", "Mobile Switching Center", "Mobile Switching Center"],
+        
+        ["True", "False"],
+        
+        ["Electronic Serial Number", "Electronic Serial Number", "Electronic Serial Number", "Electronic Serial Number"],
+         
+        ["Globalstar", "Globalstar", "Globalstar", "Globalstar"],
+        
+        ["Low-Earth-Orbit", "Low-Earth-Orbit", "Low-Earth-Orbit", "Low-Earth-Orbit"],
+        
+        ["Direct-Sequence Spread Spectrum", "Direct-Sequence Spread Spectrum", "Direct-Sequence Spread Spectrum", "Direct-Sequence Spread Spectrum"],
+        
+        ["Personal Communications Services", "Personal Communications Services", "Personal Communications Services", "Personal Communications Services"],
+        
+        ["1G", "1G", "1G", "1G"],
+        
+        ["True", "False"],
+        
+        ["6", "5", "3", "8"]       
+    ],
+    "C": [
+        1,1,1,1,1,1,1,1,1,1,1
+    ],
+    "P": "1"
+
+}

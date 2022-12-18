@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Generator</title>
+</head>
+<style>
+    #generated {
+        position: fixed;
+        background-color: rgb(22, 22, 22);
+        color: white;
+        height: 100%;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+</style>
+<body>
+    <div id="generated" class="p-5">
+        <div id="generated_out">
+
+        </div>
+        <button onclick="document.getElementById('generated').style.display='none';">Close</button>       
+    </div>
+    <form name="thisform" id="thisform" class="container py-5" onsubmit="return false">
+        <label for="Que">Question: </label>
+        <input name="Que"  id="Que" type="text" class="form-control" required>
+        <br><br>
+        
+        <label for="ans1">Choices #1: </label>
+        <input name="ans1" id ="ans1" type="text" class="form-control" required><br>
+        <label for="ans2">Choices #2: </label>
+        <input name="ans2" id ="ans2" type="text" class="form-control" required><br>
+        <label for="ans3">Choices #3: </label>
+        <input name="ans3" id ="ans3" type="text" class="form-control" required><br>
+        <label for="ans4">Choices #4: </label>
+        <input name="ans4" id ="ans4" type="text" class="form-control" required><br>
+       
+
+        <br>
+        <label for="correctans">Correct Answer:</label>
+        <input name="correctans" id="correctans" type="number" class="form-control" required>
+        <br>
+
+        <input type="submit" value="Generate" name="btn" onclick="generateMe(
+            thisform.Que.value,
+            thisform.ans1.value,
+            thisform.ans2.value,
+            thisform.ans3.value,
+            thisform.ans4.value,
+            thisform.correctans.value
+        )" class="form-control btn btn-dark">
+        <script src="JS/generator.js"></script>
+    </form>
+</body>
+</html>
